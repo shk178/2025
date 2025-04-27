@@ -1,0 +1,82 @@
+# ===== Python 관련 =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.egg
+dist/
+build/
+*.log
+*.sqlite3
+*.db
+
+# Jupyter Notebook 체크포인트
+**/.ipynb_checkpoints/
+
+# 가상환경 (venv, env 등)
+env/
+venv/
+ENV/
+.venv/
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pyenv
+.python-version
+
+# coverage 리포트
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# pytest
+.cache/
+
+# mypy
+.mypy_cache/
+
+# ===== Node.js 관련 =====
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# 빌드 결과물
+dist/
+build/
+.cache/
+
+# Next.js
+.next/
+out/
+
+# Vite
+dist/
+.vite/
+
+# SvelteKit
+.svelte-kit/
+
+# 기타 임시 파일
+*.tgz
+*.tmp
+*.temp
+*.swp
+.DS_Store
+Thumbs.db
+
+# 환경변수 파일
+.env
+.env.*
